@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B64D12C8-0CA5-5484-27E1-833DC9C94320" name="curso">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-13 19:03:52 UTC</createdTime>
+<generatorID>786AF47F-FA65-362D-F204-036C1B177272</generatorID>
+<ownerDesignName>Test</ownerDesignName>
+<engineerTo>
+<item key="F9AEA21A-55CA-2476-3D90-B5F138BF52CC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id curso" id="B6D82E43-B51D-50D1-1A02-68925B6CA8ED">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-13 19:03:52 UTC</createdTime>
+<generatorID>3A45032F-A474-4387-5EFA-B41D29BE4054</generatorID>
+<ownerDesignName>Test</ownerDesignName>
+<engineerTo>
+<item key="F9AEA21A-55CA-2476-3D90-B5F138BF52CC" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>6BA16267-491E-FCEE-5869-8F046036864E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre curso" id="424E3F55-97F7-A2FE-0659-A9CA0476253E">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-13 19:03:52 UTC</createdTime>
+<generatorID>7C69AEB6-03D1-51A5-873C-C1B96A9C976D</generatorID>
+<ownerDesignName>Test</ownerDesignName>
+<engineerTo>
+<item key="F9AEA21A-55CA-2476-3D90-B5F138BF52CC" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>4A0A6DF0-4722-061A-BAB1-F294A4ED7407</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="42B2D4C6-9266-D847-F36D-AB52FD87A428" name="curso pk">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-13 19:03:52 UTC</createdTime>
+<generatorID>D23E9924-F5D8-9FC3-AEAA-A61519C2BE18</generatorID>
+<ownerDesignName>Test</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="F9AEA21A-55CA-2476-3D90-B5F138BF52CC" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B6D82E43-B51D-50D1-1A02-68925B6CA8ED</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

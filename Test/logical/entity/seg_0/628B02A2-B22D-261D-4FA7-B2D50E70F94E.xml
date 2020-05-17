@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="628B02A2-B22D-261D-4FA7-B2D50E70F94E" name="test">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-13 19:03:52 UTC</createdTime>
+<generatorID>F8956FC6-0562-2AD8-1AD1-5CD289A38213</generatorID>
+<ownerDesignName>Test</ownerDesignName>
+<engineerTo>
+<item key="F9AEA21A-55CA-2476-3D90-B5F138BF52CC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id test" id="CF54C1EE-5302-54FA-6BB6-2ADC4BB91E6E">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-13 19:03:52 UTC</createdTime>
+<generatorID>2E1589BA-2BBC-5C19-E296-1AB99F60AAEC</generatorID>
+<ownerDesignName>Test</ownerDesignName>
+<engineerTo>
+<item key="F9AEA21A-55CA-2476-3D90-B5F138BF52CC" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>6BA16267-491E-FCEE-5869-8F046036864E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="E5E39C3B-A8C9-67F4-6AE3-23B85286E290">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-13 19:03:52 UTC</createdTime>
+<generatorID>04D88C45-89D3-1E44-E67A-5ACCE292FC8F</generatorID>
+<ownerDesignName>Test</ownerDesignName>
+<engineerTo>
+<item key="F9AEA21A-55CA-2476-3D90-B5F138BF52CC" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A1BFD859-193E-BD98-66D9-1CD96EF23F10</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripcion" id="DA08375E-0E79-69FE-D95E-724F2DBA3087">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-13 19:03:52 UTC</createdTime>
+<generatorID>4B802506-EC3C-4B9F-B630-EF30CF328ACE</generatorID>
+<ownerDesignName>Test</ownerDesignName>
+<engineerTo>
+<item key="F9AEA21A-55CA-2476-3D90-B5F138BF52CC" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>CCF333AC-674D-FFE6-99CC-2F833446AD87</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="programa" id="BB76150F-2227-6407-8058-F39571446DAE">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-13 19:03:52 UTC</createdTime>
+<generatorID>098EC735-CA22-95A3-6D50-7F32D8B5D6D8</generatorID>
+<ownerDesignName>Test</ownerDesignName>
+<engineerTo>
+<item key="F9AEA21A-55CA-2476-3D90-B5F138BF52CC" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>CCF333AC-674D-FFE6-99CC-2F833446AD87</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="unidad" id="2A26049C-F783-3E9E-0A65-5245550A9D26">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-13 19:03:52 UTC</createdTime>
+<generatorID>D1AA4659-9E23-4B30-E8F3-F230BC99CFC1</generatorID>
+<ownerDesignName>Test</ownerDesignName>
+<engineerTo>
+<item key="F9AEA21A-55CA-2476-3D90-B5F138BF52CC" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>388AA599-1AA3-9258-F6FC-5C984595FAA2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="autor" id="86AB32E2-6849-BB74-CEE3-51E024338AA5">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-13 19:03:52 UTC</createdTime>
+<generatorID>BAC4885A-9580-4A47-3075-25604330835F</generatorID>
+<ownerDesignName>Test</ownerDesignName>
+<engineerTo>
+<item key="F9AEA21A-55CA-2476-3D90-B5F138BF52CC" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A1BFD859-193E-BD98-66D9-1CD96EF23F10</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha de creacion" id="316ECF10-228E-0F95-8014-1E5F4B8EDD96">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-13 19:03:52 UTC</createdTime>
+<generatorID>06F34F72-2FB6-EAB0-5277-13CE1A227C90</generatorID>
+<ownerDesignName>Test</ownerDesignName>
+<engineerTo>
+<item key="F9AEA21A-55CA-2476-3D90-B5F138BF52CC" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>3575744C-24A3-5D9C-C446-64ACCC8A49C9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D47FDF28-8C89-7946-D228-18D21E08ADA4" name="test pk">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-13 19:03:52 UTC</createdTime>
+<generatorID>2E1CB7CA-CBAC-4060-16F4-4A729CE19F90</generatorID>
+<ownerDesignName>Test</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="F9AEA21A-55CA-2476-3D90-B5F138BF52CC" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CF54C1EE-5302-54FA-6BB6-2ADC4BB91E6E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

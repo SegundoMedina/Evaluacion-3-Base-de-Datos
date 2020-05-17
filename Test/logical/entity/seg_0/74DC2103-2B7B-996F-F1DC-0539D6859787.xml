@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="74DC2103-2B7B-996F-F1DC-0539D6859787" name="alternativas">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-13 19:03:52 UTC</createdTime>
+<generatorID>BF4E97C6-146A-BF68-CA36-8459F43C248F</generatorID>
+<ownerDesignName>Test</ownerDesignName>
+<engineerTo>
+<item key="F9AEA21A-55CA-2476-3D90-B5F138BF52CC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id alternativas" id="829A8BF9-8AE5-FE22-B14F-DA0D36B68DB0">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-13 19:03:52 UTC</createdTime>
+<generatorID>456953EC-DB2D-06EC-3452-F40183C7AF61</generatorID>
+<ownerDesignName>Test</ownerDesignName>
+<engineerTo>
+<item key="F9AEA21A-55CA-2476-3D90-B5F138BF52CC" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>6BA16267-491E-FCEE-5869-8F046036864E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripcion" id="445A3915-397E-770A-9C2D-0899A31C6978">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-13 19:03:52 UTC</createdTime>
+<generatorID>FEE6B9AC-E96A-B541-F2A2-D91B40D1C36A</generatorID>
+<ownerDesignName>Test</ownerDesignName>
+<engineerTo>
+<item key="F9AEA21A-55CA-2476-3D90-B5F138BF52CC" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>CCF333AC-674D-FFE6-99CC-2F833446AD87</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valor logico" id="83979D34-CACC-9281-627E-5FAF4070C9BB">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-13 19:03:52 UTC</createdTime>
+<generatorID>66F401A5-294A-1D9E-0FF2-0F5E9F1F524F</generatorID>
+<ownerDesignName>Test</ownerDesignName>
+<engineerTo>
+<item key="F9AEA21A-55CA-2476-3D90-B5F138BF52CC" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>FD619569-82B9-66A6-DF85-9FEBA2708BDB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="puntaje total pregunta" id="CDDB380E-D722-6AA8-0C22-B3B775BAD5AE">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-13 19:03:52 UTC</createdTime>
+<generatorID>D598D9B7-3D10-2093-5EFF-68D73EB02FCA</generatorID>
+<ownerDesignName>Test</ownerDesignName>
+<engineerTo>
+<item key="F9AEA21A-55CA-2476-3D90-B5F138BF52CC" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>6BA16267-491E-FCEE-5869-8F046036864E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id preguntas" id="A13E7FE9-C183-403E-0CC7-BF4DF0EF05DD">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-13 19:15:00 UTC</createdTime>
+<generatorID>9E88FB6F-45B0-5080-B463-A41AA1C86496</generatorID>
+<ownerDesignName>Test</ownerDesignName>
+<engineerTo>
+<item key="F9AEA21A-55CA-2476-3D90-B5F138BF52CC" value="true"/>
+</engineerTo>
+<referedAttribute>B6433A2C-B5D5-1C1D-E60F-C4169427710E</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>6BA16267-491E-FCEE-5869-8F046036864E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="968C62D4-2F4D-27E5-AADB-D11B0D6FA0C3" name="alternativas pk">
+<createdBy>Alumno</createdBy>
+<createdTime>2020-03-13 19:03:52 UTC</createdTime>
+<generatorID>B8D66AE3-98AB-1B3C-5143-14AB6CE163AE</generatorID>
+<ownerDesignName>Test</ownerDesignName>
+<engineerTo>
+<item key="F9AEA21A-55CA-2476-3D90-B5F138BF52CC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>829A8BF9-8AE5-FE22-B14F-DA0D36B68DB0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

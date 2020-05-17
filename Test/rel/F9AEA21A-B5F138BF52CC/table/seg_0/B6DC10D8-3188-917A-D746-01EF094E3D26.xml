@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B6DC10D8-3188-917A-D746-01EF094E3D26" name="test">
+<createdBy>Botmaster</createdBy>
+<createdTime>2020-03-17 01:49:52 UTC</createdTime>
+<generatorID>628B02A2-B22D-261D-4FA7-B2D50E70F94E</generatorID>
+<ownerDesignName>Test</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_test" id="041CD4E0-32AA-3747-107C-F0B539C3C0F6">
+<createdBy>Botmaster</createdBy>
+<createdTime>2020-03-17 01:49:52 UTC</createdTime>
+<generatorID>CF54C1EE-5302-54FA-6BB6-2ADC4BB91E6E</generatorID>
+<ownerDesignName>Test</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>6BA16267-491E-FCEE-5869-8F046036864E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="489AC99E-6486-B69B-CE91-B41547B6DFAF">
+<createdBy>Botmaster</createdBy>
+<createdTime>2020-03-17 01:49:52 UTC</createdTime>
+<generatorID>E5E39C3B-A8C9-67F4-6AE3-23B85286E290</generatorID>
+<ownerDesignName>Test</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A1BFD859-193E-BD98-66D9-1CD96EF23F10</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="F488608F-D6AC-7389-1AA6-BCA737BB7223">
+<createdBy>Botmaster</createdBy>
+<createdTime>2020-03-17 01:49:52 UTC</createdTime>
+<generatorID>DA08375E-0E79-69FE-D95E-724F2DBA3087</generatorID>
+<ownerDesignName>Test</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>CCF333AC-674D-FFE6-99CC-2F833446AD87</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="programa" id="AF88D1B3-ADA4-1293-59FE-50947B5A0C07">
+<createdBy>Botmaster</createdBy>
+<createdTime>2020-03-17 01:49:52 UTC</createdTime>
+<generatorID>BB76150F-2227-6407-8058-F39571446DAE</generatorID>
+<ownerDesignName>Test</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>CCF333AC-674D-FFE6-99CC-2F833446AD87</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="unidad" id="D9A962B1-F0DE-2B35-1FC2-9F18EC65627D">
+<createdBy>Botmaster</createdBy>
+<createdTime>2020-03-17 01:49:52 UTC</createdTime>
+<generatorID>2A26049C-F783-3E9E-0A65-5245550A9D26</generatorID>
+<ownerDesignName>Test</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>388AA599-1AA3-9258-F6FC-5C984595FAA2</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="autor" id="1437CB4C-DA26-70ED-23B0-9DEB4F29D0AF">
+<createdBy>Botmaster</createdBy>
+<createdTime>2020-03-17 01:49:52 UTC</createdTime>
+<generatorID>86AB32E2-6849-BB74-CEE3-51E024338AA5</generatorID>
+<ownerDesignName>Test</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>A1BFD859-193E-BD98-66D9-1CD96EF23F10</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_de_creacion" id="090C04A3-7430-DE31-D2D8-5B45D0150A3D">
+<createdBy>Botmaster</createdBy>
+<createdTime>2020-03-17 01:49:52 UTC</createdTime>
+<generatorID>316ECF10-228E-0F95-8014-1E5F4B8EDD96</generatorID>
+<ownerDesignName>Test</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>3575744C-24A3-5D9C-C446-64ACCC8A49C9</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B3EAE7DA-3B21-8C73-1A2B-2B73E25BF11E" name="test_PK">
+<createdBy>Botmaster</createdBy>
+<createdTime>2020-03-17 01:49:52 UTC</createdTime>
+<generatorID>D47FDF28-8C89-7946-D228-18D21E08ADA4</generatorID>
+<ownerDesignName>Test</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="041CD4E0-32AA-3747-107C-F0B539C3C0F6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

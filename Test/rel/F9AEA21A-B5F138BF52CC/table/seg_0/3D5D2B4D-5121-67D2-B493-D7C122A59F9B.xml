@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3D5D2B4D-5121-67D2-B493-D7C122A59F9B" name="alternativas">
+<createdBy>Botmaster</createdBy>
+<createdTime>2020-03-17 01:49:52 UTC</createdTime>
+<generatorID>74DC2103-2B7B-996F-F1DC-0539D6859787</generatorID>
+<ownerDesignName>Test</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_alternativas" id="24901AE9-B7D7-F400-7C7E-EF3003D6A9E9">
+<createdBy>Botmaster</createdBy>
+<createdTime>2020-03-17 01:49:52 UTC</createdTime>
+<generatorID>829A8BF9-8AE5-FE22-B14F-DA0D36B68DB0</generatorID>
+<ownerDesignName>Test</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>6BA16267-491E-FCEE-5869-8F046036864E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="52C3668C-0AF5-BB69-5548-B62FDD255C74">
+<createdBy>Botmaster</createdBy>
+<createdTime>2020-03-17 01:49:52 UTC</createdTime>
+<generatorID>445A3915-397E-770A-9C2D-0899A31C6978</generatorID>
+<ownerDesignName>Test</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>CCF333AC-674D-FFE6-99CC-2F833446AD87</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valor_logico" id="547DEA22-6C32-BC40-8DE7-DD6A392F2412">
+<createdBy>Botmaster</createdBy>
+<createdTime>2020-03-17 01:49:52 UTC</createdTime>
+<generatorID>83979D34-CACC-9281-627E-5FAF4070C9BB</generatorID>
+<ownerDesignName>Test</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<domain>FD619569-82B9-66A6-DF85-9FEBA2708BDB</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="puntaje_total_pregunta" id="E55A32D8-3CC1-2D29-35AC-10A61D2306E4">
+<createdBy>Botmaster</createdBy>
+<createdTime>2020-03-17 01:49:52 UTC</createdTime>
+<generatorID>CDDB380E-D722-6AA8-0C22-B3B775BAD5AE</generatorID>
+<ownerDesignName>Test</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>6BA16267-491E-FCEE-5869-8F046036864E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="preguntas_id_preguntas" id="4706B361-E24D-AED6-66D4-5E5CDB9615E4">
+<createdBy>Botmaster</createdBy>
+<createdTime>2020-03-17 01:49:52 UTC</createdTime>
+<generatorID>A13E7FE9-C183-403E-0CC7-BF4DF0EF05DD</generatorID>
+<ownerDesignName>Test</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>6BA16267-491E-FCEE-5869-8F046036864E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E6379CB8-0FD1-F6E0-FD7B-131B8E181C2B" referredColumn="01155764-8D74-495E-A27D-BDAE15F53C31"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FA363CFC-E906-CE23-5956-C45BC3413841" name="alternativas_PK">
+<createdBy>Botmaster</createdBy>
+<createdTime>2020-03-17 01:49:52 UTC</createdTime>
+<generatorID>968C62D4-2F4D-27E5-AADB-D11B0D6FA0C3</generatorID>
+<ownerDesignName>Test</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="24901AE9-B7D7-F400-7C7E-EF3003D6A9E9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="65262602-3761-7A36-6333-A3075BCAFC3B" name="alternativas_preguntas_FK">
+<createdBy>Botmaster</createdBy>
+<createdTime>2020-03-17 01:49:52 UTC</createdTime>
+<generatorID>9E88FB6F-45B0-5080-B463-A41AA1C86496</generatorID>
+<ownerDesignName>Test</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4706B361-E24D-AED6-66D4-5E5CDB9615E4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

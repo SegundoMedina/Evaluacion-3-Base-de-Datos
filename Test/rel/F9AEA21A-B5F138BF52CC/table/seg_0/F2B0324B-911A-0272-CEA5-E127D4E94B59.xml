@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F2B0324B-911A-0272-CEA5-E127D4E94B59" name="preguntas">
+<createdBy>Botmaster</createdBy>
+<createdTime>2020-03-17 01:49:52 UTC</createdTime>
+<generatorID>77FAED80-A128-4F17-07DF-2DA44AC83112</generatorID>
+<ownerDesignName>Test</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_preguntas" id="01155764-8D74-495E-A27D-BDAE15F53C31">
+<createdBy>Botmaster</createdBy>
+<createdTime>2020-03-17 01:49:52 UTC</createdTime>
+<generatorID>B6433A2C-B5D5-1C1D-E60F-C4169427710E</generatorID>
+<ownerDesignName>Test</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>6BA16267-491E-FCEE-5869-8F046036864E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="enunciado" id="A344D738-F12B-9AEC-C7E2-10B23BB6D9E1">
+<createdBy>Botmaster</createdBy>
+<createdTime>2020-03-17 01:49:52 UTC</createdTime>
+<generatorID>0852B73D-6B08-8E9B-8797-C6528CF7447B</generatorID>
+<ownerDesignName>Test</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>CCF333AC-674D-FFE6-99CC-2F833446AD87</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="puntaje_asociado" id="2B0C671C-99DD-A512-8191-E4907A2D3FB0">
+<createdBy>Botmaster</createdBy>
+<createdTime>2020-03-17 01:49:52 UTC</createdTime>
+<generatorID>8191F7F9-2522-B25D-7DE3-E7AD156489E9</generatorID>
+<ownerDesignName>Test</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>6BA16267-491E-FCEE-5869-8F046036864E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="test_id_test" id="2250391F-0BE4-D08D-2203-366CC1970B8B">
+<createdBy>Botmaster</createdBy>
+<createdTime>2020-03-17 01:49:52 UTC</createdTime>
+<generatorID>A9CF6F77-A907-BE81-FAB5-916E9E082CED</generatorID>
+<ownerDesignName>Test</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>6BA16267-491E-FCEE-5869-8F046036864E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3D370702-A809-EFDE-C284-C4261C1AA7A3" referredColumn="041CD4E0-32AA-3747-107C-F0B539C3C0F6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="70AC2052-A039-16EB-9763-AB592C5A539C" name="preguntas_PK">
+<createdBy>Botmaster</createdBy>
+<createdTime>2020-03-17 01:49:52 UTC</createdTime>
+<generatorID>00194D0F-FFA0-803A-9B22-1EF0A6A32784</generatorID>
+<ownerDesignName>Test</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="01155764-8D74-495E-A27D-BDAE15F53C31"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="522A315D-2EC3-1EF8-FEAB-C15BD143A944" name="preguntas_test_FK">
+<createdBy>Botmaster</createdBy>
+<createdTime>2020-03-17 01:49:52 UTC</createdTime>
+<generatorID>0BD4B2EB-F51B-C39E-4AE8-C400514083BD</generatorID>
+<ownerDesignName>Test</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2250391F-0BE4-D08D-2203-366CC1970B8B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

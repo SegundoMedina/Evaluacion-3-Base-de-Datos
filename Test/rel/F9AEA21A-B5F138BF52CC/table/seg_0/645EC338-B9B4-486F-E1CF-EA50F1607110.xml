@@ -1,0 +1,137 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="645EC338-B9B4-486F-E1CF-EA50F1607110" name="respuestas">
+<createdBy>Botmaster</createdBy>
+<createdTime>2020-03-17 01:49:52 UTC</createdTime>
+<generatorID>A585CD05-EE40-E1C6-9522-A01CD7D6DFFD</generatorID>
+<ownerDesignName>Test</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_respuestas" id="F9171183-ED08-DF76-680A-AB763977F7AD">
+<createdBy>Botmaster</createdBy>
+<createdTime>2020-03-17 01:49:52 UTC</createdTime>
+<generatorID>2A9089B3-DA68-E87A-1E4E-5A59D75553DB</generatorID>
+<ownerDesignName>Test</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>6BA16267-491E-FCEE-5869-8F046036864E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="respuestas" id="BBDA1FE6-A5F0-961B-FAA2-88E85B3E4E39">
+<createdBy>Botmaster</createdBy>
+<createdTime>2020-03-17 01:49:52 UTC</createdTime>
+<generatorID>73B76570-2F62-703E-68A1-DBEAF408ED22</generatorID>
+<ownerDesignName>Test</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>CCF333AC-674D-FFE6-99CC-2F833446AD87</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="puntaje_respuesta" id="5957F2A1-E0F3-6B0B-6BBB-BFB3690987DC">
+<createdBy>Botmaster</createdBy>
+<createdTime>2020-03-17 01:49:52 UTC</createdTime>
+<generatorID>8DDF878B-24B3-976C-D0D8-094BF4613ADE</generatorID>
+<ownerDesignName>Test</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="preguntas_id_preguntas" id="48C02B1A-F1A7-73C6-BDF4-E31821F89990">
+<createdBy>Botmaster</createdBy>
+<createdTime>2020-03-17 01:49:52 UTC</createdTime>
+<generatorID>6CC52854-A5AF-2DAA-B11D-C5A9330FF59A</generatorID>
+<ownerDesignName>Test</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>6BA16267-491E-FCEE-5869-8F046036864E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="99502680-02AC-B1F4-AB2B-19CC7659ADC5" referredColumn="01155764-8D74-495E-A27D-BDAE15F53C31"/>
+</associations>
+</Column>
+<Column name="alumno_id_alumno" id="6F9DF16E-0686-E416-D00B-771C7ECBCBAD">
+<createdBy>Botmaster</createdBy>
+<createdTime>2020-03-17 01:49:52 UTC</createdTime>
+<generatorID>F0E57DD7-C2C1-E21E-5E18-C89B665942C7</generatorID>
+<ownerDesignName>Test</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>6BA16267-491E-FCEE-5869-8F046036864E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A9E72630-B869-DA08-348F-33D8DD852066" referredColumn="B0351607-D97B-CCC4-3411-C8AF9709BAA0"/>
+</associations>
+</Column>
+<Column name="alternativas_id_alternativas" id="98AEB337-B07A-80FA-ABBD-D23512D185C2">
+<createdBy>Botmaster</createdBy>
+<createdTime>2020-03-17 01:49:52 UTC</createdTime>
+<generatorID>FDC77C28-5945-DA0B-8EE9-F022613F8E3E</generatorID>
+<ownerDesignName>Test</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>6BA16267-491E-FCEE-5869-8F046036864E</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D2934978-4FAD-88E2-D257-1BDA7FDBD93F" referredColumn="24901AE9-B7D7-F400-7C7E-EF3003D6A9E9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5D787F13-A688-3389-6980-256CD9929264" name="respuestas_PK">
+<createdBy>Botmaster</createdBy>
+<createdTime>2020-03-17 01:49:52 UTC</createdTime>
+<generatorID>ADC5487F-40BC-B485-1A5F-90B19353B984</generatorID>
+<ownerDesignName>Test</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F9171183-ED08-DF76-680A-AB763977F7AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="71C759AF-D1A9-31F8-F3B4-D91BD78DB532" name="respuestas_preguntas_FK">
+<createdBy>Botmaster</createdBy>
+<createdTime>2020-03-17 01:49:52 UTC</createdTime>
+<generatorID>4A46EC8E-2BCF-BD66-9822-D5CB43AC580F</generatorID>
+<ownerDesignName>Test</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="48C02B1A-F1A7-73C6-BDF4-E31821F89990"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C34243EB-082A-FE87-1FBE-8DFF2C72ECFE" name="respuestas_alumno_FK">
+<createdBy>Botmaster</createdBy>
+<createdTime>2020-03-17 01:49:52 UTC</createdTime>
+<generatorID>EF270B83-BF78-8548-C9A8-E519FC9C11CE</generatorID>
+<ownerDesignName>Test</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6F9DF16E-0686-E416-D00B-771C7ECBCBAD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3766B0AD-F5E4-3928-3EA9-E72A6352007A" name="respuestas_alternativas_FK">
+<createdBy>Botmaster</createdBy>
+<createdTime>2020-03-17 01:49:52 UTC</createdTime>
+<generatorID>53BD206B-FA9C-811E-2EBF-D7A67B08E51E</generatorID>
+<ownerDesignName>Test</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="98AEB337-B07A-80FA-ABBD-D23512D185C2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
